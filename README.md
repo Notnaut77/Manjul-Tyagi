@@ -8,5 +8,5 @@ This project is a simple, elegant, and responsive HTML/CSS-based portfolio site 
 
 ## 🌐 Live Demo
 
-➡️ [View Live Website](https://Notnaut77.github.io/Manjul-Tyagi)
+➡️ [View Live Website](https://manjultyagi.netlify.app/)
 
