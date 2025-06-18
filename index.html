@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manjul Tyagi - Mathematics Educator & Author</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+/* === Timeline Animation for Education Section === */
+.education-section {
+  position: relative;
+  padding-left: 50px;
+  border-left: 4px solid #4f46e5;
+  margin-top: 50px;
+}
+
+.education-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+}
+
+.education-item {
+  position: relative;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  transform: translateY(50px);
+  opacity: 0;
+  transition: all 0.6s ease;
+}
+
+/* Decorative circle for timeline */
+.education-item::before {
+  content: "";
+  position: absolute;
+  left: -34px;
+  top: 20px;
+  width: 16px;
+  height: 16px;
+  background-color: #4f46e5;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.2);
+}
+
+/* Animation when in view */
+.education-item.in-view {
+  transform: translateY(0);
+  opacity: 1;
+}
+</style>
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>Manjul Tyagi</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About Me</a></li>
+                <li><a href="#publications" class="nav-link">Publications</a></li>
+                <li><a href="#contact" class="nav-link">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h1 class="main-title">Manjul Tyagi</h1>
+                    <h2 class="subtitle">Mathematics Author & Educator</h2>
+
+                    <p class="intro">
+                        With over two decades of experience in mathematics education and 500+ published works across 20+ academic publishers, I have impacted millions of students with an estimated 10M+ copies in circulation. I am passionate about making mathematics accessible through innovative teaching methods and comprehensive study materials.
+                    </p>
+
+                   
+
+                    <blockquote class="quote-section">
+                        <p><em>"Mathematics may not teach us to add love or subtract hate, but it gives us hope that every problem has a solution."</em></p>
+                        
+                    </blockquote>
+                </div>
+
+                <div class="about-image">
+                    <img src="profile-photo.jpeg" alt="Manjul Tyagi" class="profile-photo">
+                </div>
+            </div>
+
+            <!-- Highlights -->
+            <div class="additional-info">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>Experience</h3>
+                        <p>20+ Years in Mathematics Education</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Publications</h3>
+                        <p>500+ Books Authored</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Students Taught</h3>
+                        <p>7000+ Students Across Career</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Success Rate</h3>
+                        <p>94% Average Pass Rate</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="education-section">
+                <h2>Education & Qualifications</h2>
+                <div class="education-grid">
+                    <div class="education-item">
+                        <h4>M.A. in Education</h4>
+                        <p>Chaudhary Charan Singh University (2009)</p>
+                    </div>
+                    <div class="education-item">
+                        <h4>B.Ed.</h4>
+                        <p>Chaudhary Charan Singh University (2004)</p>
+                    </div>
+                    <div class="education-item">
+                        <h4>M.Sc. in Mathematics</h4>
+                        <p>Chaudhary Charan Singh University (2002)</p>
+                    </div>
+                    <div class="education-item">
+                        <h4>B.Sc. (PCM)</h4>
+                        <p>Chaudhary Charan Singh University (2000)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="publications-section">
+        <div class="container">
+            <h2>Publications</h2>
+            <p class="section-subtitle">A comprehensive collection of mathematics books for competitive examinations</p>
+            
+            <div class="publications-grid">
+  <div class="publication-item fade-in">
+    <h3>NDA & NA Entrance Exam Mathematics</h3>
+    <p>Comprehensive guide for national defense entrance exams</p>
+  </div>
+  <div class="publication-item fade-in">
+    <h3>Study Package Mathematics NDA & NA (2020 Edition)</h3>
+    <p>Widely adopted prep manual for defense aspirants</p>
+  </div>
+  <div class="publication-item fade-in">
+    <h3>Sampurna Study Package Ganit JEE Main (2022)</h3>
+    <p>All-in-one resource for JEE Mathematics preparation</p>
+  </div>
+  <div class="publication-item fade-in">
+    <h3>Master Resource Series – JEE (2025 Edition)</h3>
+    <p>Advanced conceptual resource for engineering entrance</p>
+  </div>
+  <div class="publication-item fade-in">
+    <h3>SSC CGL Practice Sets</h3>
+    <p>Structured practice sets for SSC aspirants</p>
+  </div>
+  <div class="publication-item fade-in">
+    <h3>UPSI Practice Sets & Solved Papers</h3>
+    <p>For Uttar Pradesh Police Sub-Inspector Exam</p>
+  </div>
+  <div class="publication-item fade-in">
+    <h3>Mathematics Glossary</h3>
+    <p>Core terminology reference for secondary and competitive level students</p>
+  </div>
+  <div class="publication-item fade-in">
+    <h3>Uttar Pradesh TGT Ganit</h3>
+    <p>State-level mathematics recruitment preparation book</p>
+  </div>
+</div>
+
+
+            <div class="publication-stats">
+    <div class="stat-item">
+        <h3 class="counter" data-target="500">0</h3>
+        <p>Books Published</p>
+    </div>
+    <div class="stat-item">
+        <h3 class="counter" data-target="20">0</h3>
+        <p>Publishers</p>
+    </div>
+    <div class="stat-item">
+        <h3 class="counter" data-target="10000000">0</h3>
+        <p>Copies in Circulation</p>
+    </div>
+</div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p class="section-subtitle">Get in touch for academic consultations, book collaborations, or educational guidance</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p>manjul19680@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Phone</h3>
+                        <p>+91 98971 05723</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Address</h3>
+                        <p>231/9 Jagriti Vihar, Near Canara Bank<br>Meerut, Uttar Pradesh, India</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Current Position</h3>
+                        <p>Mathematics Teacher (TGT)<br>Ram Sahai Inter College, Meerut</p>
+                    </div>
+                </div>
+
+                <div class="specializations">
+                    <h3>Areas of Expertise</h3>
+                    <ul>
+                        <li>Competitive Exam Mathematics (JEE, NDA, SSC)</li>
+                        <li>Academic Content Development & Publishing</li>
+                        <li>Mathematics Pedagogy & Teaching Methods</li>
+                        <li>Editorial Consultation for Educational Publishers</li>
+                        <li>Coaching & Mentoring for Board Exams</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Manjul Tyagi. All rights reserved. | Mathematics Educator & Author</p>
+        </div>
+    </footer>
+
+    <script src="script.js">
+</script>
+
+</body>
+</html>
